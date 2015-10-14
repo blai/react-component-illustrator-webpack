@@ -1,6 +1,6 @@
 {
   "name": "react-component-illustrator-webpack",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Webpack plugin that integrates react-component-illustrator",
   "license": "MIT",
   "repository": "blai/react-component-illustrator-webpack",
