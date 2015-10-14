@@ -1,0 +1,28 @@
+{
+  "name": "react-component-illustrator-webpack",
+  "version": "0.0.0",
+  "description": "Webpack plugin that integrates react-component-illustrator",
+  "license": "MIT",
+  "repository": "blai/react-component-illustrator-webpack",
+  "author": {
+    "name": "Brian Lai",
+    "email": "brian.lai.ym@gmail.com"
+  },
+  "engines": {
+    "node": ">=4.2.0"
+  },
+  "scripts": {
+    "prepublish": "BABEL_ENV=production babel -d lib --optional runtime src"
+  },
+  "main": "lib/illustration-plugin",
+  "files": [
+    "license",
+    "lib/"
+  ],
+  "dependencies": {
+    "babel-runtime": "^5.8.24"
+  },
+  "devDependencies": {
+    "babel": "^5.8.23"
+  }
+}
